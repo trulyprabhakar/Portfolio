@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    color: #2d3436;
+    line-height: 1.6;
+}
+header {
+    background-image: linear-gradient(to right, #6dd5ed, #2193b0); /* Gradient background */
+    color: #ffffff;
+    padding: 40px 0; /* Further reduced padding for a smaller header */
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Refined shadow */
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 2.6rem; /* Further reduced font size */
+    margin-bottom: 0.5rem; /* Spacing adjustment */
+}
+
+header p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem; /* Further reduced font size */
+}
+
+
+section {
+    padding: 30px;
+    max-width: 900px; /* Slightly wider max width */
+    margin: 50px auto;
+    background-color: #ffffff;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08); /* Deeper shadow */
+    border-radius: 20px; /* Larger border radius */
+    transition: all 0.3s ease; /* Transition for all properties */
+}
+
+section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12); /* More pronounced hover effect */
+}
+
+
+h2 {
+    font-weight: 700;
+    margin: 30px 0;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #78e08f; /* Fresh green underline */
+    font-size: 2rem; /* Larger font size */
+}
+
+.personal-info {
+    display: flex;
+    align-items: center;
+    gap: 40px; /* Increase the gap as needed */
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+}
+
+
+.personal-info img {
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 15px; /* Adjust for curved square effect */
+    margin-top: -10px;
+}
+
+.info p {
+    margin: 12px 0; /* Adjust spacing between lines as needed */
+}
+
+
+.container {
+    background-color: #ddd;
+    border-radius: 10px;
+    padding: 2px;
+    width: 80%;
+    margin: 10px 0;
+}
+
+.skill {
+    height: 20px;
+    line-height: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    transition: width 1s ease-in-out;
+}
+/* CSS to animate the skill width */
+.skill-animate {
+    transition: width 2s ease-in-out;
+  }
+  
+
+/* Assigning unique colors to each skill */
+.html-css {
+    background-color: hsl(281, 78%, 52%); /* Vibrant orange for HTML/CSS */
+    width: 90%;
+}
+
+.js {
+    background-color: #f0db4f; /* Bright yellow for JavaScript */
+    width: 65%;
+}
+
+.python {
+    background-color: #4B8BBE; /* Soft blue for Python */
+    width: 60%;
+}
+
+.java {
+    background-color: #EB2D2D; /* Deep red for Java */
+    width: 80%;
+}
+
+.spring {
+    background-color: #6DB33F; /* Spring green for Spring */
+    width: 86%;
+}
+.copyright {
+    text-align: center;
+    color: #333; /* Even darker text color for improved visibility */
+    font-size: 0.875rem; /* Adjust size as needed */
+    padding: 20px 0; /* Padding for space around the text */
+    margin-top: 40px; /* Space above to separate from other content */
+    background-color: #c0c0c0; /* Darker background for stronger contrast */
+    border-top: 2px solid #a0a0a0; /* Even darker border for more distinction */
+    font-weight: normal; /* Overrides bold style if not desired */
+}
+
+
+

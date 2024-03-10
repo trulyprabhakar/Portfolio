@@ -1,0 +1,111 @@
+body {
+  font-family: 'Poppins', sans-serif; /* Modern Google Font */
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+header {
+  background: linear-gradient(135deg, #5e42a6, #b74e91); /* Elegant purple gradient */
+  color: #fff;
+  text-align: center;
+  padding: 8px 0; /* Ultra-minimal header size */
+  margin-bottom: 15px; /* Compact layout margin */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12); /* Subtle shadow for depth */
+  font-family: 'Roboto', sans-serif; /* Bold and modern font */
+  font-size: 28px; /* Balanced font size for readability */
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Clear text shadow */
+  border-radius: 3px; /* Sharp and modern border-radius */
+}
+
+
+.container {
+  width: 80%;
+  max-width: 700px; /* Slightly larger max-width */
+  margin: 30px auto; /* Increased margin for more space */
+  background-color: #fff;
+  border-radius: 12px; /* Larger border-radius for a softer look */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+  overflow: hidden;
+  padding: 25px; /* More padding inside containers */
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); /* Smooth transition for all changes */
+}
+
+.container:hover {
+  transform: translateY(-10px); /* More pronounced hover effect */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.container img:hover {
+  transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+.container h3 {
+  text-align: center;
+  color: #333;
+  margin: 20px 0;
+  font-size: 26px; /* Larger font size for headings */
+}
+
+.container p {
+  text-align: justify; /* Justified text for a cleaner look */
+  color: #555;
+  padding: 0 20px;
+  line-height: 1.8; /* Increased line height for better readability */
+  font-size: 17px; /* Slightly larger font size */
+  margin-bottom: 25px; /* More space below paragraphs */
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+  transform: translateY(-2px); /* Subtle lift effect on hover */
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #333;
+  color: #fff;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .container {
+      width: 95%;
+      margin: 20px auto;
+  }
+
+  header {
+      padding: 30px 0;
+  }
+}
+.copyright {
+  text-align: center;
+  color: #121010; /* Even darker text color for improved visibility */
+  font-size: 0.875rem; /* Adjust size as needed */
+  padding: 20px 0; /* Padding for space around the text */
+  margin-top: 40px; /* Space above to separate from other content */
+  background-color: #e6e0e0; /* Darker background for stronger contrast */
+  border-top: 2px solid #d1cccc; /* Even darker border for more distinction */
+  font-weight: normal; /* Overrides bold style if not desired */
+}
+
